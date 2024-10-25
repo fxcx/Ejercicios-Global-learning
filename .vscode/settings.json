@@ -12,5 +12,19 @@
     "editor.formatOnSave": true
   },
   "json.schemas": [],
-  "vsicons.presets.jsOfficial": false
+  "vsicons.presets.jsOfficial": false,
+
+  "workbench.colorCustomizations": {
+    "editor.foreground": "#abb2bf", // Color del texto
+    "editorCursor.foreground": "#2054a8", // Color del cursor
+    "activityBar.background": "#0d2514", // Color de la barra de actividades
+    "sideBar.background": "#0f2116", // Color de la barra lateral
+    "editor.selectionBackground": "#0d3027", // Color de fondo de la selección
+    "list.activeSelectionBackground": "#233c1a", // Color de fondo de la selección activa
+    "list.activeSelectionForeground": "#87d77e", // Color del texto de la selección activa
+    "list.inactiveSelectionBackground": "#083b24", // Color de fondo de la selección inactiva
+    "list.inactiveSelectionForeground": "#0f5134", // Color del texto de la selección inactiva
+
+}
+
 }
