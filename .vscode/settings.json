@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "vscode.typescript-language-features",
+  "javascript.validate.enable": false, // Desactiva la validación por defecto de JS
+  "standard.enable": true, // Activa standardjs
+  "standard.autoFixOnSave": true, // Aplica auto-fix al guardar
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "standard.vscode-standard"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "standard.vscode-standard",
+    "editor.formatOnSave": true
+  },
+  "json.schemas": [],
+  "vsicons.presets.jsOfficial": false
+}
