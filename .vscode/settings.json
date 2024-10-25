@@ -15,16 +15,32 @@
   "vsicons.presets.jsOfficial": false,
 
   "workbench.colorCustomizations": {
-    "editor.foreground": "#abb2bf", // Color del texto
-    "editorCursor.foreground": "#2054a8", // Color del cursor
-    "activityBar.background": "#0d2514", // Color de la barra de actividades
-    "sideBar.background": "#0f2116", // Color de la barra lateral
-    "editor.selectionBackground": "#0d3027", // Color de fondo de la selección
-    "list.activeSelectionBackground": "#233c1a", // Color de fondo de la selección activa
-    "list.activeSelectionForeground": "#87d77e", // Color del texto de la selección activa
-    "list.inactiveSelectionBackground": "#083b24", // Color de fondo de la selección inactiva
-    "list.inactiveSelectionForeground": "#0f5134", // Color del texto de la selección inactiva
-
-}
+    "editor.foreground": "#abb2bf",
+    "editorCursor.foreground": "#2054a8",
+    "sideBar.background": "#0f2116",
+    "editor.selectionBackground": "#0d3027",
+    "list.activeSelectionBackground": "#233c1a",
+    "list.activeSelectionForeground": "#87d77e",
+    "list.inactiveSelectionBackground": "#083b24",
+    "list.inactiveSelectionForeground": "#0f5134",
+    "activityBar.activeBackground": "#185848",
+    "activityBar.background": "#185848",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#290e32",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#185848",
+    "statusBar.background": "#0d3027",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#185848",
+    "statusBarItem.remoteBackground": "#0d3027",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#0d3027",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#0d302799",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.remoteColor": "#0d3027"
 
 }
