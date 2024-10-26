@@ -90,7 +90,7 @@ export interface Players {
   Personaje: Pesonajes
   card: Array<Card<Criatura>>
   hability: CardHability[]
-  atributos?: Record<string, any>
+  extra?: Record<string, any>
 }
 
 export type PlayerLimit = [Players, Players]
@@ -99,7 +99,7 @@ export interface ZoneBattlePreparation {
   round: number
   time: number
   energyRound: number
-  zone: Ecenario<Zona>
+  zoneSelect: Ecenario<Zona>
   playersLimit: PlayerLimit
 }
 
@@ -107,8 +107,6 @@ export type ZoneBattle = Card<Criatura> | CardHability | Zona
 
 export interface ICampBattle extends ZoneBattlePreparation {
   aleatorioTurn: () => void
-  addCriatureCamp: (cardIndex: number) => Card<Criatura>
-  addHabilityCards: (cardIndex: number) => CardHability
   addEcenarioZone: () => ZoneBattle[]
-
+  deletedElementZoneBattle: (cardIndex: number) => void
 }
