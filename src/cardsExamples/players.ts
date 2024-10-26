@@ -39,7 +39,7 @@ export const ejemploPlayer1: Players = {
   },
   card: [],
   hability: [],
-  atributos: {}
+  extra: {}
 }
 export const ejemploPlayer2: Players = {
   id: 2,
@@ -82,5 +82,5 @@ export const ejemploPlayer2: Players = {
   },
   card: [],
   hability: [],
-  atributos: {}
+  extra: {}
 }
